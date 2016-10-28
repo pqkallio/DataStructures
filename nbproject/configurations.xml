@@ -14,7 +14,9 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>linked_list.c</itemPath>
       <itemPath>main.c</itemPath>
+      <itemPath>stack.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -38,9 +40,13 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="linked_list.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="linked_list.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="stack.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="stack.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -65,9 +71,13 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="linked_list.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="linked_list.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="stack.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="stack.h" ex="false" tool="3" flavor2="0">
       </item>

@@ -60,9 +60,13 @@ int main(int argc, char** argv) {
         printf("Max is %i\n", max->key);
     }
     
+    printf("List size: %i\n", L->size);
+    list_clear(L);
+    printf("List size: %i\n", L->size);
+    
     Stack *S = create_stack();
     
-    if (stack_empty(S) == 1) {
+    if (stack_empty(S)) {
         printf("Stack is empty\n");
     } else {
         printf("Stack is not empty\n");
@@ -91,6 +95,12 @@ int main(int argc, char** argv) {
     } else {
         printf("Stack is not empty\n");
     }
+    
+    stack_clear(S);
+    list_clear(L);
+    
+    free(S);
+    free(L);
     
     return (EXIT_SUCCESS);
 }
